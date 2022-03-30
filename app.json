@@ -1,7 +1,7 @@
 
 {
-  "name": "KARMAN U-BOT",
-  "description": "KARMAN U-BOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "JESS-USERBOT",
+  "description": "JS-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/c97811e33743ce755ada5.jpg",
   "keywords": [
     "telegram",
@@ -10,7 +10,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ArmanGG01/KARMAN-USERBOT/KARMAN U-BOT",
+  "repository": "https://github.com/Jeskeren/JS-USERBOT/JESS-USREBOT",
   "telegram": "https://t.me/PakkPoll",
   "success_url": "https://t.me/DeployBot01",
   "stack": "container",
