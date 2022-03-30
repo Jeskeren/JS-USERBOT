@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari KARMAN-USERBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari JESS-USERBOT.`'
             )
             repo.__del__()
             return
@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`KARMAN-USERBOT Berhasil Di Update`")
+                "`JESS-USERBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -236,9 +236,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru KARMAN-USERBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru JESS-USERBOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui KARMAN-USERBOT."
+    "\nUsage: Memperbarui JESS-USERBOT."
     "\n\n.update all"
-    "\nUsage: Memperbarui KARMAN-USERBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui JESS-USERBOT Dengan Cara Deploy Ulang."
 })
