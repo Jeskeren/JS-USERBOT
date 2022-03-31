@@ -65,7 +65,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy KARMAN-USERBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy JESS-USERBOT dyno.`'
             )
             return repo.__del__()
         await event.edit(f'`{REPO_NAME}:'
@@ -128,7 +128,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**KARMAN-USERBOT Telah Di Perbarui ツ**")
+            "**JESS-USERBOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
