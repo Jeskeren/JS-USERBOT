@@ -198,7 +198,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀KARMAN-USERBOT💀"
+REPO_NAME = os.environ.get("REPO_NAME") or "🃏JESS-USERBOT🃏"
 
 # DEVS
 DEVS = (
@@ -209,7 +209,7 @@ DEVS = (
 # Blacklist User for use JESS
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ArmanGG01/Karblack/master/karblacklist.json"
+        "https://raw.githubusercontent.com/Jeskeren/Karblack/master/karblacklist.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -558,8 +558,8 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 with bot:
     try:
-        bot(JoinChannelRequest("@DeployBot01"))
-        bot(JoinChannelRequest("@obrolansuar"))
+        bot(JoinChannelRequest("@kisahjes"))
+        bot(JoinChannelRequest("@healingvirtual"))
 
         dugmeler = CMD_HELP
         user = bot.get_me()
@@ -633,7 +633,7 @@ with bot:
                 result = builder.article(
                     title="🃏JESS-USERBOT🃏",
                     description="JESS-USERBOT | Telethon",
-                    url="https://t.me/obrolansuar",
+                    url="https://t.me/healingvirtual",
                     text=f"**JESS-USERBOT**\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n👑 **OWNER:** [JESS](t.me/Senseijess)\n👑 **Assistant:** {tgbotusername}\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n**Support:**@kisahjes\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠",
                     buttons=[
                         [
@@ -685,7 +685,7 @@ with bot:
             else:
                 result = builder.article(
                     " 🃏JESS-USERBOT🃏 ",
-                    text="""**🃏JESS-USERBOT🃏\n\n Anda Bisa Membuat Karman Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    text="""**🃏JESS-USERBOT🃏\n\n Anda Bisa Membuat Jess Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
