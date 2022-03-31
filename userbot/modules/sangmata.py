@@ -25,7 +25,7 @@ async def lastname(steal):
     if message.sender.bot:
         await steal.edit("```Reply Ke Pesan Pengguna dulu ngentot```")
         return
-    await steal.edit("LU SIAPA SI KENTOT,GUA KEPO, GA SENENG PC!!.")
+    await steal.edit("NI SIAPA SI ANJING,GUA KEPO!!.")
     try:
         async with bot.conversation(chat) as conv:
             try:
